@@ -1,0 +1,18 @@
+:root{
+    --primary: #a6b4fd
+}
+
+
+blockquote {
+    border-left: 2px solid #ddd;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    color: #aaa;
+    font-style: italic;
+}
+code{
+    background-color: #ddd;
+    padding: 2px 4px;
+
+}

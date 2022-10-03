@@ -1,0 +1,52 @@
+
+.tagsInputContainer{
+ overflow: auto;
+  gap: .5em;
+}
+
+.text{
+   padding: 8px 16px;
+   background: #f4f4f6;
+
+}
+
+.close{
+  height: 16px;
+  width: 16px;
+  background-color: #303030;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5em;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tagsInput{
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  margin-left: 8px;
+
+}
+.badge{
+  border: 0.1px solid #e74c3c !important;
+    padding: 1px;
+    top: 5px !important;
+
+}
+.pointer{
+  cursor: pointer;
+}
+
+
+.label {
+  cursor: pointer;
+  display: block;
+  transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+.label:not(:last-of-type) {
+  margin-bottom: 1.5em;
+}
